@@ -1,0 +1,38 @@
+@define-color Surface0 #313244;
+@define-color Surface1 #45475a;
+@define-color Base     #1e1e2e;
+@define-color Mantle   #181825;
+@define-color Lavender #b4befe;
+@define-color Text     #cdd6f4;
+
+* {
+	outline-color: @Lavender;
+	color: @Text;
+}
+
+headerbar {
+	background-color: @Base;
+	padding: 0;
+	border-width: 0 4px;
+	border-color: @Base;
+}
+
+headerbar > * {
+	background-color: @Base;
+}
+
+entry {
+	background-color: @Surface0;
+}
+
+stacksidebar {
+	background-color: @Mantle;
+}
+
+.activatable {
+	background-color: @Surface0;
+}
+
+.activatable:hover {
+	background-color: @Surface1;
+}
